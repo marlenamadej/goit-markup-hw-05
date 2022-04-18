@@ -22,12 +22,12 @@
                 <a class="logo link" href="index.html">Web<span class="logocolor">Studio</span></a>
                 <nav class="navigation">
                     <ul class="navigation-list">
-                        <li class="navigation-list-item list"><a class="navigation-list-link"
+                        <li class="navigation-list-item current"><a class="navigation-list-link"
                                 href="index.html">Agencja</a>
                         </li>
-                        <li class="navigation-list-item list"><a class="navigation-list-link"
+                        <li class="navigation-list-item current"><a class="navigation-list-link"
                                 href="portfolio.html">Portfolio</a></li>
-                        <li class="navigation-list-item list"><a class="navigation-list-link" href="#">Kontakt</a></li>
+                        <li class="navigation-list-item current"><a class="navigation-list-link" href="#">Kontakt</a></li>
                     </ul>
                 </nav>
 
@@ -52,7 +52,7 @@
         <section class="background">
             <div class="container">
                 <h1 class="background-header">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-                <button class="background-button" type="button">Zamów usługę</button>
+                <button class="background-button" type="button" data-modal-open>Zamów usługę</button>
             </div>
 
         </section>
@@ -394,6 +394,13 @@
             </ul>
         </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="close-btn" data-modal-close></button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
