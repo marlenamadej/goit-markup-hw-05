@@ -608,13 +608,13 @@ img {
     background-color:rgba(0, 0, 0, 0.2);
     opacity:1;
     transition-property: opacity;
-    transition-duration: 250ms;
+    transition-duration: 1000ms;
     transition-timing-function: cubic-bezier(0.4,0,0.2,1);
 }
 
 .modal{
     position:relative;
-    top:36%;
+    top:50%;
     left:50%;
     transform:translate(-50%,-50%);
     width:528px;
@@ -643,7 +643,6 @@ img {
 }
 
 .is-hidden{
-    visibility: hidden;
     opacity: 0;
     pointer-events:none;
 }
